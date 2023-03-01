@@ -1,0 +1,12 @@
+root@comp3134-winter2023:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+03:41:25.978718 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.51690: Flags [P.], seq 3569976282:3569976390, ack 1759884856, win 501, length 108
+03:41:25.978864 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.51690: Flags [P.], seq 108:144, ack 1, win 501, length 36
+03:41:25.978909 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.51690: Flags [P.], seq 144:252, ack 1, win 501, length 108
+03:41:25.978964 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.51690: Flags [P.], seq 252:288, ack 1, win 501, length 36
+03:41:25.979752 IP comp3134-winter2023.44873 > 67.207.67.2.domain: 43996+ [1au] PTR? 99.237.245.99.in-addr.arpa. (55)
+5 packets captured
+39 packets received by filter
+3 packets dropped by kernel
+root@comp3134-winter2023:~#

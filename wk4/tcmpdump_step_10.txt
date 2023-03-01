@@ -1,0 +1,154 @@
+root@comp3134-winter2023:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+03:52:29.272791 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 4042296874:4042296910, ack 1707712799, win 501, length 36
+03:52:29.274520 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 36:144, ack 1, win 501, length 108
+03:52:29.274613 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 144:288, ack 1, win 501, length 144
+03:52:29.274651 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 288:324, ack 1, win 501, length 36
+03:52:29.278523 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 324:536, ack 1, win 501, length 212
+03:52:29.278674 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 536:572, ack 1, win 501, length 36
+03:52:29.278751 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 572:760, ack 1, win 501, length 188
+03:52:29.278792 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 760:796, ack 1, win 501, length 36
+03:52:29.278846 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 796:984, ack 1, win 501, length 188
+03:52:29.278886 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 984:1020, ack 1, win 501, length 36
+03:52:29.296324 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 144, win 510, length 0
+03:52:29.296324 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 324, win 509, length 0
+03:52:29.296324 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 572, win 508, length 0
+03:52:29.296396 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 1020:2588, ack 1, win 501, length 1568
+03:52:29.296652 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 2588:2768, ack 1, win 501, length 180
+03:52:29.296707 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 2768:2804, ack 1, win 501, length 36
+03:52:29.296785 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 2804:2984, ack 1, win 501, length 180
+03:52:29.296827 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 2984:3020, ack 1, win 501, length 36
+03:52:29.296876 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 3020:3200, ack 1, win 501, length 180
+03:52:29.296912 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 3200:3236, ack 1, win 501, length 36
+03:52:29.296959 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 3236:3432, ack 1, win 501, length 196
+03:52:29.296995 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 3432:3468, ack 1, win 501, length 36
+03:52:29.297039 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 3468:3664, ack 1, win 501, length 196
+03:52:29.297075 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 3664:3700, ack 1, win 501, length 36
+03:52:29.301387 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 796, win 513, length 0
+03:52:29.301388 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 1020, win 512, length 0
+03:52:29.301456 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 3700:5788, ack 1, win 501, length 2088
+03:52:29.301623 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 5788:5968, ack 1, win 501, length 180
+03:52:29.301704 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 5968:6184, ack 1, win 501, length 216
+03:52:29.301760 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 6184:6220, ack 1, win 501, length 36
+03:52:29.301980 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 6220:6416, ack 1, win 501, length 196
+03:52:29.302116 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 6416:6452, ack 1, win 501, length 36
+03:52:29.302175 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 6452:6648, ack 1, win 501, length 196
+03:52:29.324910 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 2588, win 513, length 0
+03:52:29.324989 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 6648:7844, ack 1, win 501, length 1196
+03:52:29.325035 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 2804, win 512, length 0
+03:52:29.325035 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 3020, win 511, length 0
+03:52:29.325035 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 3236, win 510, length 0
+03:52:29.325035 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 3468, win 509, length 0
+03:52:29.325035 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 3700, win 508, length 0
+03:52:29.325035 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 5788, win 513, length 0
+03:52:29.325035 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 6184, win 511, length 0
+03:52:29.325035 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 6416, win 510, length 0
+03:52:29.325079 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 6648, win 509, length 0
+03:52:29.325079 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [P.], seq 1:37, ack 6648, win 509, length 36
+03:52:29.325258 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 7844:8024, ack 37, win 501, length 180
+03:52:29.325337 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8024:8060, ack 37, win 501, length 36
+03:52:29.325350 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8060:8256, ack 37, win 501, length 196
+03:52:29.325400 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8256:8292, ack 37, win 501, length 36
+03:52:29.325425 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8292:8472, ack 37, win 501, length 180
+03:52:29.325456 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8472:8508, ack 37, win 501, length 36
+03:52:29.325493 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8508:8688, ack 37, win 501, length 180
+03:52:29.325528 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8688:8724, ack 37, win 501, length 36
+03:52:29.325558 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8724:8904, ack 37, win 501, length 180
+03:52:29.325591 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8904:8940, ack 37, win 501, length 36
+03:52:29.325619 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 8940:9120, ack 37, win 501, length 180
+03:52:29.325650 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 9120:9156, ack 37, win 501, length 36
+03:52:29.325677 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 9156:9336, ack 37, win 501, length 180
+03:52:29.325711 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 9336:9372, ack 37, win 501, length 36
+03:52:29.325753 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 9372:9552, ack 37, win 501, length 180
+03:52:29.325788 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 9552:9588, ack 37, win 501, length 36
+03:52:29.326036 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 9588:9768, ack 37, win 501, length 180
+03:52:29.326109 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 9768:9984, ack 37, win 501, length 216
+03:52:29.326149 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 9984:10020, ack 37, win 501, length 36
+03:52:29.326191 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10020:10200, ack 37, win 501, length 180
+03:52:29.326226 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10200:10236, ack 37, win 501, length 36
+03:52:29.326270 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10236:10424, ack 37, win 501, length 188
+03:52:29.326305 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10424:10460, ack 37, win 501, length 36
+03:52:29.326345 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10460:10656, ack 37, win 501, length 196
+03:52:29.326379 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10656:10692, ack 37, win 501, length 36
+03:52:29.326418 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10692:10888, ack 37, win 501, length 196
+03:52:29.326451 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10888:10924, ack 37, win 501, length 36
+03:52:29.326492 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 10924:11120, ack 37, win 501, length 196
+03:52:29.326536 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 11120:11156, ack 37, win 501, length 36
+03:52:29.326578 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 11156:11352, ack 37, win 501, length 196
+03:52:29.326612 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 11352:11388, ack 37, win 501, length 36
+03:52:29.326652 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 11388:11584, ack 37, win 501, length 196
+03:52:29.326686 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 11584:11620, ack 37, win 501, length 36
+03:52:29.326726 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 11620:11816, ack 37, win 501, length 196
+03:52:29.326754 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 11816:11852, ack 37, win 501, length 36
+03:52:29.326789 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 11852:12048, ack 37, win 501, length 196
+03:52:29.326824 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 12048:12084, ack 37, win 501, length 36
+03:52:29.371506 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 7844, win 513, length 0
+03:52:29.371507 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 8024, win 512, length 0
+03:52:29.371507 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 8256, win 511, length 0
+03:52:29.371507 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 8472, win 510, length 0
+03:52:29.371507 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 8688, win 509, length 0
+03:52:29.371587 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [.], seq 12084:13544, ack 37, win 501, length 1460
+03:52:29.371614 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 13544:16464, ack 37, win 501, length 2920
+03:52:29.371620 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 16464:19044, ack 37, win 501, length 2580
+03:52:29.371648 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 8904, win 509, length 0
+03:52:29.371648 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 9120, win 508, length 0
+03:52:29.371648 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 9336, win 513, length 0
+03:52:29.371648 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 9552, win 512, length 0
+03:52:29.371648 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 9768, win 511, length 0
+03:52:29.371648 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 10020, win 510, length 0
+03:52:29.371648 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 10236, win 509, length 0
+03:52:29.371648 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 10460, win 508, length 0
+03:52:29.371683 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 10692, win 507, length 0
+03:52:29.371683 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 10924, win 513, length 0
+03:52:29.371683 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 11156, win 512, length 0
+03:52:29.371683 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 11388, win 511, length 0
+03:52:29.371683 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 11620, win 510, length 0
+03:52:29.371683 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 11852, win 509, length 0
+03:52:29.371683 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 12084, win 508, length 0
+03:52:29.371829 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19044:19224, ack 37, win 501, length 180
+03:52:29.371872 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19224:19260, ack 37, win 501, length 36
+03:52:29.371909 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19260:19440, ack 37, win 501, length 180
+03:52:29.371943 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19440:19476, ack 37, win 501, length 36
+03:52:29.371989 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19476:19656, ack 37, win 501, length 180
+03:52:29.372023 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19656:19692, ack 37, win 501, length 36
+03:52:29.372058 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19692:19872, ack 37, win 501, length 180
+03:52:29.372092 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19872:19908, ack 37, win 501, length 36
+03:52:29.372139 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 19908:20088, ack 37, win 501, length 180
+03:52:29.372179 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 20088:20124, ack 37, win 501, length 36
+03:52:29.372230 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 20124:20320, ack 37, win 501, length 196
+03:52:29.372269 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 20320:20356, ack 37, win 501, length 36
+03:52:29.372319 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 20356:20552, ack 37, win 501, length 196
+03:52:29.372356 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 20552:20588, ack 37, win 501, length 36
+03:52:29.372401 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 20588:20784, ack 37, win 501, length 196
+03:52:29.372437 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 20784:20820, ack 37, win 501, length 36
+03:52:29.372482 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 20820:21000, ack 37, win 501, length 180
+03:52:29.372551 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 21000:21036, ack 37, win 501, length 36
+03:52:29.372689 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 21252:21432, ack 37, win 501, length 180
+03:52:29.372829 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 21468:21648, ack 37, win 501, length 180
+03:52:29.372895 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 21684:21864, ack 37, win 501, length 180
+03:52:29.372945 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 21864:22080, ack 37, win 501, length 216
+03:52:29.373119 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 22080:22944, ack 37, win 501, length 864
+03:52:29.373154 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 22944:22980, ack 37, win 501, length 36
+03:52:29.373185 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 22980:23160, ack 37, win 501, length 180
+03:52:29.373223 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 23160:23196, ack 37, win 501, length 36
+03:52:29.373258 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 23196:23376, ack 37, win 501, length 180
+03:52:29.373290 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 23376:23412, ack 37, win 501, length 36
+03:52:29.373319 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 23412:23592, ack 37, win 501, length 180
+03:52:29.373351 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 23592:23628, ack 37, win 501, length 36
+03:52:29.373475 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 23808:24344, ack 37, win 501, length 536
+03:52:29.373538 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 24344:24860, ack 37, win 501, length 516
+03:52:29.373627 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 24860:25536, ack 37, win 501, length 676
+03:52:29.373699 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 25536:26372, ack 37, win 501, length 836
+03:52:29.403676 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 17924, win 513, length 0
+03:52:29.403676 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 19224, win 508, length 0
+03:52:29.403744 IP comp3134-winter2023.ssh > cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005: Flags [P.], seq 26372:29292, ack 37, win 501, length 2920
+03:52:29.403794 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 19440, win 513, length 0
+03:52:29.403794 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 19656, win 512, length 0
+03:52:29.403794 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 19872, win 511, length 0
+03:52:29.403794 IP cpeac202e742173-cmac202e742170.sdns.net.rogers.com.55005 > comp3134-winter2023.ssh: Flags [.], ack 20088, win 510, length 0
+^C
+146 packets captured
+168 packets received by filter
+5 packets dropped by kernel
+root@comp3134-winter2023:~#
