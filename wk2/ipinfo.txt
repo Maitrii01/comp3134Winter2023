@@ -1,0 +1,41 @@
+Whatsapp
+
+IP : 31.13.67.52
+City: Miami
+State: Florida
+Country: United States of America
+Postal Code: 33010
+
+Google
+
+IP : 74.125.26.103
+City: Mountain View
+State: California
+Country: United States of America
+Postal Code: 94043
+
+
+Discord
+
+IP :162.159.138.232
+City: San Francisco
+State: California
+Country: United States of America
+Postal Code: 94107
+
+Starbucks
+
+IP :104.127.177.155
+City: Piscataway
+State: New Jersey
+Country: United States of America
+Postal Code: 08854
+
+
+BMW
+
+IP : 23.218.93.104
+City: Atlanta
+State: Georgia
+Country: United States of America
+Postal Code: 30301

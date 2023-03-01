@@ -1,0 +1,85 @@
+Subway
+
+root@comp3134-winter2023:~# ping 23.5.148.5
+PING 23.5.148.5 (23.5.148.5) 56(84) bytes of data.
+64 bytes from 23.5.148.5: icmp_seq=1 ttl=54 time=29.9 ms
+64 bytes from 23.5.148.5: icmp_seq=2 ttl=54 time=27.3 ms
+64 bytes from 23.5.148.5: icmp_seq=3 ttl=51 time=29.1 ms
+64 bytes from 23.5.148.5: icmp_seq=4 ttl=51 time=27.5 ms
+64 bytes from 23.5.148.5: icmp_seq=5 ttl=51 time=27.4 ms
+64 bytes from 23.5.148.5: icmp_seq=6 ttl=51 time=27.4 ms
+^C
+--- 23.5.148.5 ping statistics ---
+7 packets transmitted, 6 received, 14.2857% packet loss, time 6008ms
+rtt min/avg/max/mdev = 27.333/28.102/29.881/1.012 ms
+
+Mercedes
+
+root@comp3134-winter2023:~# ping 104.76.210.219
+PING 104.76.210.219 (104.76.210.219) 56(84) bytes of data.
+64 bytes from 104.76.210.219: icmp_seq=1 ttl=51 time=30.5 ms
+64 bytes from 104.76.210.219: icmp_seq=2 ttl=51 time=29.4 ms
+64 bytes from 104.76.210.219: icmp_seq=3 ttl=51 time=29.5 ms
+64 bytes from 104.76.210.219: icmp_seq=4 ttl=51 time=29.5 ms
+64 bytes from 104.76.210.219: icmp_seq=5 ttl=51 time=29.5 ms
+64 bytes from 104.76.210.219: icmp_seq=6 ttl=51 time=29.4 ms
+64 bytes from 104.76.210.219: icmp_seq=7 ttl=51 time=29.4 ms
+^C
+--- 104.76.210.219 ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6010ms
+rtt min/avg/max/mdev = 29.421/29.600/30.455/0.350 ms
+
+
+Audi
+
+root@comp3134-winter2023:~# ping 23.218.93.32
+PING 23.218.93.32 (23.218.93.32) 56(84) bytes of data.
+64 bytes from 23.218.93.32: icmp_seq=1 ttl=56 time=34.8 ms
+64 bytes from 23.218.93.32: icmp_seq=2 ttl=56 time=34.8 ms
+64 bytes from 23.218.93.32: icmp_seq=3 ttl=56 time=34.3 ms
+64 bytes from 23.218.93.32: icmp_seq=4 ttl=56 time=33.4 ms
+64 bytes from 23.218.93.32: icmp_seq=5 ttl=56 time=33.4 ms
+64 bytes from 23.218.93.32: icmp_seq=6 ttl=56 time=33.4 ms
+64 bytes from 23.218.93.32: icmp_seq=7 ttl=56 time=33.4 ms
+^C
+--- 23.218.93.32 ping statistics ---
+7 packets transmitted, 7 received, 0% packet loss, time 6008ms
+rtt min/avg/max/mdev = 33.350/33.890/34.756/0.629 ms
+
+
+TataMotors
+
+root@comp3134-winter2023:~# ping 13.226.52.112
+PING 13.226.52.112 (13.226.52.112) 56(84) bytes of data.
+64 bytes from 13.226.52.112: icmp_seq=1 ttl=244 time=47.4 ms
+64 bytes from 13.226.52.112: icmp_seq=2 ttl=244 time=46.2 ms
+64 bytes from 13.226.52.112: icmp_seq=3 ttl=244 time=46.3 ms
+64 bytes from 13.226.52.112: icmp_seq=4 ttl=244 time=46.2 ms
+64 bytes from 13.226.52.112: icmp_seq=5 ttl=244 time=46.4 ms
+64 bytes from 13.226.52.112: icmp_seq=6 ttl=244 time=46.3 ms
+^C
+--- 13.226.52.112 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5007ms
+rtt min/avg/max/mdev = 46.227/46.457/47.374/0.413 ms
+
+
+PizzaHut
+
+root@comp3134-winter2023:~# ping 65.8.178.32
+PING 65.8.178.32 (65.8.178.32) 56(84) bytes of data.
+64 bytes from 65.8.178.32: icmp_seq=1 ttl=244 time=47.9 ms
+64 bytes from 65.8.178.32: icmp_seq=2 ttl=244 time=46.5 ms
+64 bytes from 65.8.178.32: icmp_seq=3 ttl=244 time=46.4 ms
+64 bytes from 65.8.178.32: icmp_seq=4 ttl=244 time=46.3 ms
+64 bytes from 65.8.178.32: icmp_seq=5 ttl=244 time=46.4 ms
+64 bytes from 65.8.178.32: icmp_seq=6 ttl=244 time=46.4 ms
+^C
+--- 65.8.178.32 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5007ms
+rtt min/avg/max/mdev = 46.341/46.639/47.867/0.550 ms
+
+
+
+
+
+

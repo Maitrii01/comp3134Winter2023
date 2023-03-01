@@ -1,0 +1,60 @@
+root@comp3134-winter2023:~# nmap instagram.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-01 03:18 UTC
+Nmap scan report for instagram.com (31.13.80.174)
+Host is up (0.0012s latency).
+Other addresses for instagram.com (not scanned): 2a03:2880:f20e:e5:face:b00c:0:4420
+rDNS record for 31.13.80.174: instagram-p42-shv-01-yyz1.fbcdn.net
+Not shown: 996 filtered ports
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+843/tcp  closed unknown
+5222/tcp closed xmpp-client
+
+Nmap done: 1 IP address (1 host up) scanned in 4.52 seconds
+root@comp3134-winter2023:~# nmap -p 443 microsoft.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-01 03:19 UTC
+Nmap scan report for microsoft.com (20.84.181.62)
+Host is up (0.023s latency).
+Other addresses for microsoft.com (not scanned): 20.53.203.50 20.112.52.29 20.81.111.85 20.103.85.33
+
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.18 seconds
+root@comp3134-winter2023:~# nmap -p 1-100 amazon.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-01 03:19 UTC
+Nmap scan report for amazon.com (52.94.236.248)
+Host is up (0.029s latency).
+Other addresses for amazon.com (not scanned): 54.239.28.85 205.251.242.103
+Not shown: 98 closed ports
+PORT   STATE    SERVICE
+25/tcp filtered smtp
+80/tcp open     http
+
+Nmap done: 1 IP address (1 host up) scanned in 1.29 seconds
+root@comp3134-winter2023:~# nmap -F netflix.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-01 03:20 UTC
+Nmap scan report for netflix.ca (34.218.19.240)
+Host is up (0.079s latency).
+Other addresses for netflix.ca (not scanned): 52.31.48.193 107.20.175.192 18.236.7.30 50.17.247.9 46.137.171.215 44.226.113.145 34.252.74.1 204.236.236.127 2600:1f14:62a:de80::de70 2600:1f18:631e:2f81::de70 2600:1f14:62a:de82::de70 2a05:d018:76c:b685::de70 2600:1f14:62a:de81::de70 2a05:d018:76c:b684::de70 2600:1f18:631e:2f80::de70 2a05:d018:76c:b680::de70 2600:1f18:631e:2f82::de70
+rDNS record for 34.218.19.240: ec2-34-218-19-240.us-west-2.compute.amazonaws.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.02 seconds
+root@comp3134-winter2023:~# nmap -F youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2023-03-01 03:21 UTC
+Nmap scan report for youtube.com (142.251.32.78)
+Host is up (0.0021s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:804::200e
+rDNS record for 142.251.32.78: yyz12s07-in-f14.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 1.86 seconds
+root@comp3134-winter2023:~#
